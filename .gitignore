@@ -1,0 +1,17 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Package Manager
+node_modules/
+
+# Build
+dist/
+
+# Development
+.cache/
+.cloudflare/
+
+# OS
+.DS_Store
