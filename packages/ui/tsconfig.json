@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    "jsxImportSource": "@solidjs/web",
+    "lib": ["dom", "dom.iterable", "es2022"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "verbatimModuleSyntax": true
+  },
+  "include": ["src"]
+}

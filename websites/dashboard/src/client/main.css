@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background-1: var(--ui-color-background-1);
+  --color-background-2: var(--ui-color-background-2);
+  --color-background-inverse: var(--ui-color-background-inverse);
+  --color-border: var(--ui-color-border);
+  --color-foreground: var(--ui-color-foreground);
+  --color-foreground-inverse: var(--ui-color-foreground-inverse);
+}
+
+@layer base {
+  :root,
+  .light {
+    --ui-color-background-1: var(--color-taupe-50);
+    --ui-color-background-2: var(--color-taupe-100);
+    --ui-color-background-inverse: var(--color-taupe-950);
+    --ui-color-border: var(--color-taupe-300);
+    --ui-color-foreground: var(--color-taupe-900);
+    --ui-color-foreground-inverse: var(--color-taupe-100);
+  }
+
+  .dark {
+    --ui-color-background-1: var(--color-taupe-950);
+    --ui-color-background-2: var(--color-taupe-900);
+    --ui-color-background-inverse: var(--color-taupe-50);
+    --ui-color-border: var(--color-taupe-700);
+    --ui-color-foreground: var(--color-taupe-100);
+    --ui-color-foreground-inverse: var(--color-taupe-900);
+  }
+}

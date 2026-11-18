@@ -1,0 +1,19 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig.json",
+  "compilerOptions": {
+    "allowArbitraryExtensions": true,
+    "composite": true,
+    "jsx": "preserve",
+    "jsxImportSource": "@solidjs/web",
+    "lib": ["dom", "dom.iterable", "es2022"],
+    "module": "preserve",
+    "moduleResolution": "bundler",
+    "noPropertyAccessFromIndexSignature": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2022",
+    "types": ["filesystem-routing/types", "vite/client"],
+    "verbatimModuleSyntax": true
+  },
+  "include": ["./src/client"]
+}
